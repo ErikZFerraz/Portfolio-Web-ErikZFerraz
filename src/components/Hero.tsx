@@ -41,7 +41,7 @@ export function Hero() {
             transition={{ duration: 0.9, ease: [0.33, 1, 0.68, 1], delay: 0.2 }}
             className="text-[22vw] font-bold leading-[0.76] tracking-tighter text-white sm:text-[18vw] lg:text-[13vw]"
           >
-            ERIK
+            ERIK ZANETTI
           </motion.h1>
         </div>
 
@@ -62,26 +62,38 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.85 }}
           className="mt-10 grid gap-8 border-t border-white/15 pt-8 md:grid-cols-[1fr_auto] md:items-end"
         >
-          <div className="max-w-2xl">
+            <div className="max-w-2xl">
             <p className="text-xl font-light leading-relaxed text-gray-300 md:text-2xl">
               Desenvolvedor de software com experiência acadêmica e prática em aplicações web,
               mobile, bancos de dados e soluções com inteligência artificial.
             </p>
+          
             <div className="mt-7 flex flex-wrap gap-3">
               <a
                 href="#projects"
-                className="inline-flex items-center gap-2 border border-white bg-white px-5 py-3 text-xs uppercase tracking-[0.2em] text-black transition hover:bg-transparent hover:text-white"
+                className="inline-flex min-w-[165px] items-center justify-center gap-2 border border-white bg-white px-5 py-3 text-xs uppercase tracking-[0.2em] text-black transition duration-300 hover:bg-transparent hover:text-white"
               >
                 Ver projetos
                 <ArrowDownIcon className="h-4 w-4" />
               </a>
+          
               <a
                 href="https://github.com/ErikZFerraz"
                 target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 border border-white/20 px-5 py-3 text-xs uppercase tracking-[0.2em] text-white transition hover:border-white"
+                rel="noopener noreferrer"
+                className="inline-flex min-w-[165px] items-center justify-center gap-2 border border-white/30 px-5 py-3 text-xs uppercase tracking-[0.2em] text-white transition duration-300 hover:border-white hover:bg-white hover:text-black"
               >
                 GitHub
+                <ArrowUpRightIcon className="h-4 w-4" />
+              </a>
+          
+              <a
+                href="https://www.linkedin.com/in/erik-zanetti-ferraz-09895a180/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex min-w-[165px] items-center justify-center gap-2 border border-white/30 px-5 py-3 text-xs uppercase tracking-[0.2em] text-white transition duration-300 hover:border-white hover:bg-white hover:text-black"
+              >
+                LinkedIn
                 <ArrowUpRightIcon className="h-4 w-4" />
               </a>
             </div>
